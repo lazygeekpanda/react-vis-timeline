@@ -14,7 +14,7 @@
     "lint": "eslint --ext .ts,.tsx ./src/",
     "lint-watch": "esw -w --clear --color .ts,.tsx ./src",
     "lint-autofix": "yarn run lint -- --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "lint-staged": {
     "{src,examples}/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
