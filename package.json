@@ -1,6 +1,6 @@
 {
-  "name": "react-vis-timeline",
-  "version": "2.0.3",
+  "name": "@lazygeekpanda/react-vis-timeline",
+  "version": "0.0.1",
   "description": "React component for the vis-timeline module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -29,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/razbensimon/react-vis-timeline.git"
+    "url": "git+https://github.com/lazygeekpanda/react-vis-timeline.git"
   },
-  "author": "razbensimon",
+  "author": "lazygeekpanda",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/razbensimon/react-vis-timeline/issues"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/razbensimon/react-vis-timeline#readme",
+  "homepage": "https://github.com/lazygeekpanda/react-vis-timeline#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
